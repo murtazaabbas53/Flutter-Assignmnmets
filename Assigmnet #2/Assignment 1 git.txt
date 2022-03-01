@@ -1,3 +1,37 @@
-This is my first Assignmnet..
+void main(List<String> arguments) {
 
-Hello World Welcome to the world of flutter
+
+
+  print('THIS IS MY MARKSHEET USING CONDITIONAL STATEMENTS');
+
+  num maths=70;
+  num english=80;
+  num urdu=60;
+  num science=50;
+  num geography=40;
+  num obtained_marks= maths+english+urdu+science+geography;
+
+  print("Your Obtained Marks is:$obtained_marks");
+  num total_marks=500;
+  num percentage=obtained_marks/total_marks*100;
+  print("Your Percentage is:${percentage}%");
+
+  if (percentage>=80 ){
+    print("Your Grade is A+");
+
+  }else 
+  if(percentage>=70){
+    print("Your Grade is A");
+  }
+  else
+  if(percentage>=60){
+    print("Your Grade is B");
+  }
+  else
+  if(percentage>=50){
+    print("Your Grade is C");
+  }
+  else{
+    print ("Your Grade is D");
+  }
+}
