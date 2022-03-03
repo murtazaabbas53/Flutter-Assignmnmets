@@ -1,8 +1,6 @@
-void main(List<String> arguments) {
+void main() {
 
-
-
-  print('THIS IS MY MARKSHEET USING CONDITIONAL STATEMENTS');
+print('THIS IS MY MARKSHEET USING CONDITIONAL STATEMENTS');
 
   num maths=70;
   num english=80;
